@@ -1,0 +1,46 @@
+Único paso:
+  Ejecutar run.sh
+
+La aplicación escuchará en el puerto 8080.
+En el directorio también se encuentran 2 colecciones Postman:
+  1_ Fravega Challenge Backend - Para empezar a hacer pruebas de la API.
+  2_ Fravega Challenge Backend Startup - Para hacer la carga de los "puntos a crear" mencionados más abajo.
+
+Datos de prueba
+
+Punto de origen
+
+Esnaola 679, Caballito, C1405 CAE Buenos Aires, Argentina
+Latitud: -34.60790431557606
+Longitud: -58.43193693544234
+
+Puntos a crear
+
+{
+    "address": "Avenida Córdoba 3800",
+    "point": {
+        "latitude": -34.59787231319697,
+        "longitude": -58.420006469747904
+    }
+},
+{
+    "address": "Avenida Pueyrredón 500",
+    "point": {
+        "latitude": -34.604654644691784,
+        "longitude": -58.40550108338124
+    }
+},
+{
+    "address": "Otamendi 684",
+    "point": {
+        "latitude": -34.60903460606486,
+        "longitude": -58.43468351748203
+    }
+},
+{
+    "address": "Avenida Jujuy 1",
+    "point": {
+        "latitude": -34.61016488117433,
+        "longitude": -58.406016067518365
+    }
+}

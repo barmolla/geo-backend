@@ -1,0 +1,158 @@
+{
+	"info": {
+		"_postman_id": "73853e0c-9a88-4072-a365-e4452cc75a9e",
+		"name": "Fravega Challenge Backend Startup",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Create Sucursal - Otamendi 684",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"address\": \"Otamendi 684\",\n    \"point\": {\n        \"latitude\": -34.60903460606486,\n        \"longitude\": -58.43468351748203\n    }\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/api/v1/sucursal",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"v1",
+						"sucursal"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Create Sucursal - Avenida Córdoba 3800",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"address\": \"Avenida Córdoba 3800\",\n    \"point\": {\n        \"latitude\": -34.59787231319697,\n        \"longitude\": -58.420006469747904\n    }\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/api/v1/sucursal",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"v1",
+						"sucursal"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Create Sucursal - Avenida Pueyrredón 500",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"address\": \"Avenida Pueyrredón 500\",\n    \"point\": {\n        \"latitude\": -34.604654644691784,\n        \"longitude\": -58.40550108338124\n    }\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/api/v1/sucursal",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"v1",
+						"sucursal"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Create Sucursal - Avenida Jujuy 1",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"address\": \"Avenida Jujuy 1\",\n    \"point\": {\n        \"latitude\": -34.61016488117433,\n        \"longitude\": -58.406016067518365\n    }\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/api/v1/sucursal",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"v1",
+						"sucursal"
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"protocolProfileBehavior": {}
+}
